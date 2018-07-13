@@ -1,0 +1,211 @@
+
+/* ----NAVBAR---- */
+nav {
+  background-color: white;
+  height: 50px;
+  line-height: 50px;
+}
+
+nav div.navmenu {
+  float: right;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #000;
+  display: inline-block;
+  font-size: 0.8em;
+  line-height: normal;
+  padding: 10px 5px;
+  text-decoration: none;
+  vertical-align: middle;
+
+}
+nav a#gmail:hover, nav a#images:hover {
+  text-decoration: underline;
+}
+
+nav a#apps {
+  background-image: url(../images/googleappsbutton.png);
+  height: 30px;
+  width: 30px;
+  opacity: 0.60;
+  padding: 0;
+}
+
+nav a#apps:hover {
+  opacity: 1;
+}
+
+nav a#signin {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 10px;
+}
+
+/* ----ARTICLE---- */
+article {
+  width: 100%;
+}
+
+article img {
+  display: block;
+  margin: auto;
+  margin-top: 150px;
+}
+
+article div.searchform {
+  background-color: white;
+  margin: 30px 0;
+  text-align: center;
+}
+
+article .textarea {
+  border: 0.2px solid rgba(240,240,240,1);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: 400;
+  height: 40px;
+  padding: 0 15px;
+  width: 450px;
+}
+
+article .button {
+  display: inline-block;
+  background-color: rgba(240,240,240,1);
+  border: 1px solid white;
+  color: #666;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+article .button:hover {
+  border: 1px solid black;
+  color: black;
+}
+
+article div.languages {
+  background-color: white;
+  font-size: 0.8em;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+article div.languages p {
+  display: inline-block;
+}
+
+article div.languages a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+article div.languages a:hover {
+  text-decoration: underline;
+}
+
+/* ----ASIDE---- */
+aside {
+  background-color: white;
+  border: 1px solid rgb(225,225,225);
+  height: 98px;
+  width: 100%;
+  line-height: 98px;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+}
+
+aside img {
+  float: left;
+  margin: 26px 20px;
+}
+
+aside p {
+  display: inline-block;
+  float: left;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+}
+
+aside div.asidemenu {
+  float: right;
+}
+
+aside a {
+  display: inline-block;
+  font-size: 0.75em;
+  line-height: normal;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+
+aside a#remind {
+  background-color: white;
+  color: cornflowerblue;
+}
+
+aside a#remind:hover {
+  background-color: rgba(240,240,240,1);
+}
+
+aside a#review {
+  background-color: cornflowerblue;
+  color: white;
+  margin-right: 20px;
+}
+
+aside a#review:hover {
+  background-color: #4881ea;
+}
+
+/* ----FOOTER---- */
+footer {
+  background-color: rgba(240,240,240,1);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+footer p {
+  color: #666;
+  border: 1px solid rgb(225,225,225);
+  height: 48px;
+  line-height: 48px;
+  margin: 0;
+  padding-left: 20px;
+
+}
+
+footer div.footermenu {
+  border: 1px solid rgb(225,225,225);
+  height: 48px;
+  line-height: 48px;
+  list-style-type: none;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+}
+
+footer div.right {
+  float: right;
+  margin-right: 10px;
+}
+
+footer a {
+  color: #666;
+  display: block;
+  float:left;
+  margin: 0;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
